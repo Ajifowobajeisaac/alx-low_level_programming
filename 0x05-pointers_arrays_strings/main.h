@@ -2,6 +2,6 @@
 #define MAIN_H_INCLUDED
 
 
-
+void reset_to_98(int *n);
 
 #endif
