@@ -14,10 +14,8 @@ int main(void)
 
 	n = 402;
 
-	putchar("%p\n", &n);
+	int *p = &n;
 
 	*p = 98;
-
-	putchar("%d\n", &p);
 	return (0);
 }
