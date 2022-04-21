@@ -5,6 +5,10 @@
 /**
  * main - check code
  *
+ * reset_to_98 - Resets variable
+ *
+ * n - points to variable
+ *
  * Return: Always 0.
  */
 
