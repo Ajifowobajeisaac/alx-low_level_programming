@@ -4,7 +4,7 @@
 
 /**
  * reset_to_98 - Takes a variable and Resets it to
- *@n - pointer
+ * n - this is the pointer
  * Return: Always 0.
  */
 
