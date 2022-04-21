@@ -5,9 +5,8 @@
 /**
  * main - check code
  *
- * reset_to_98 - Resets variable
- *
- * n - points to variable
+ * reset_to_98 - Takes a variable and Resets it to
+ *@n - pointer
  *
  * Return: Always 0.
  */
