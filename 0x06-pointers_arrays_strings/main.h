@@ -3,5 +3,5 @@
 
 
 char *_strcat(char *dest, char *src);
-putchar(int)
+int _putchar(char c)
 #endif
