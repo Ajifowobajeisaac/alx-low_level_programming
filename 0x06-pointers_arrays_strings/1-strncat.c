@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _stncat - concatenate n bytes of
+ * _strncat - concatenate n bytes of
  * @src: source variable
  * @dest: destination
+ * @n: the number of bytes to be concatenated
  *
  * Return: always 0.
  */
@@ -22,5 +23,5 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 		j++;
 	}
-	return (dest)
+	return (dest);
 }
