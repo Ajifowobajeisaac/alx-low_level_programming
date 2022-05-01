@@ -1,24 +1,20 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - Entry point
+ * main - print alphabets except e and q
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
+
 int main(void)
 {
-	char low, e, q;
+	char c = 'a';
 
-	e = 'e';
-	q = 'q';
-
-	for (low = 'a'; low <= 'z'; low++)
+	while (c != e)
 	{
-		if (low != e && low != q)
-			putchar(low);
+	putchar(c);
 	}
-		printf("\n");
+	putchar('\n');
 
 	return (0);
 }
