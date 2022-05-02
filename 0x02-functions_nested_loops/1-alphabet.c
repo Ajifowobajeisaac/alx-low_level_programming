@@ -3,7 +3,7 @@
 /**
  * main - print alphabets
  *
- * Return: Always 0.
+ * Return: Always void.
  */
 
 void print_alphabet(void)
@@ -15,6 +15,4 @@ void print_alphabet(void)
 		_putchar(c);
 		c++;
 	}
-
-	return (0);
 }
