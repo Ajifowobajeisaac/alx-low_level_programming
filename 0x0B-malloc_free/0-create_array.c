@@ -23,6 +23,9 @@ char *create_array(unsigned int size, char c)
 	{
 		tmp[i] = c;
 	}
+
+	free(tmp);
+
 	if (tmp == NULL)
 		return (NULL);
 	else
