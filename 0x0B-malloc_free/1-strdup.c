@@ -6,12 +6,13 @@
  * _strdup - copies a string to a newly allocated space in memory.
  * @str: string to be copied
  *
- * return strn.
+ * Return: on success strn.
+ * On failure, NULL.
  */
 
 char *_strdup(char *str)
 {
-	int size;
+	int size, i;
 	char *tmp;
 
 	size = strlen(str);
@@ -21,8 +22,8 @@ char *_strdup(char *str)
 	if (tmp == NULL || str == NULL)
 		return (NULL);
 
-	while (size--)
-		*tmp = *str;
+	for (i = 0; i < size - 1; i++)
+		tmp[i] = *str;
 
 	*tmp = '\0';
 
