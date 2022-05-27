@@ -1,4 +1,5 @@
-#ifndef DOG_H_
+#ifndef DOG_G_
+#define DOG_G_
 
 /**
  * struct dog - struct containinf details of dogs.
@@ -14,6 +15,6 @@ struct dog
 	char *name;
 	char *owner;
 	float age;
-}
+};
 
 #endif
