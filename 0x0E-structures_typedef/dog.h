@@ -10,7 +10,7 @@
 
 
 
-typedef struct dog dog_t
+typedef struct dog_t
 {
 	char *name;
 	char *owner;
