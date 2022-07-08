@@ -3,7 +3,7 @@
 /**
  * dlistint_len - returns no of elemnets in a linked lists.
  * @h: ptr to linked list
- * 
+ *
  * Return: number of nodes.
  */
 
